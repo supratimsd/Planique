@@ -77,5 +77,43 @@ Planique is a web-based project management system that allows users to efficient
 - Role-based access control for different project operations  
 
 ---
+## Getting Started
 
+To run this project locally:
+
+1. **Clone the repository**
+git clone https://github.com/supratimsd/Planique.git
+
+markdown
+Copy
+Edit
+
+2. **Backend Setup**
+- Navigate to the backend directory  
+- Configure `application.properties` with your MySQL credentials and other environment variables  
+- Run the Spring Boot application
+
+3. **Frontend Setup**
+- Navigate to the frontend directory  
+- Install dependencies  
+  ```
+  npm install
+  ```
+- Start the development server  
+  ```
+  npm start
+  ```
+
+4. **Razorpay Integration**
+- Set up your Razorpay API keys in the backend environment config
+
+5. **Email Configuration**
+- Configure SMTP settings in your `application.properties` for email notifications
+
+---
+## Conclusion
+
+Planique is designed to be an all-in-one solution for effective project management. It combines project planning, issue tracking, team communication, and billing under one robust and user-friendly platform. Whether you're working solo or managing a team, Planique helps streamline your workflow and improves collaboration across the board.
+
+---
 
